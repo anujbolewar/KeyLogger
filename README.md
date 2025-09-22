@@ -5,49 +5,29 @@
 
 A cross-platform educational keylogger with reverse shell capabilities, designed for penetration testing, cybersecurity research, and educational purposes. This tool demonstrates various techniques used in ethical hacking scenarios and provides hands-on learning opportunities for cybersecurity students and professionals.
 
-** This project is strictly for educational and research purposes only. Unauthorized use is illegal and unethical.**
-
 ---
 
-##  **IMPORTANT DISCLAIMER**
+## ⚠️ Important Disclaimer
 
-** READ THIS BEFORE PROCEEDING **
+**For educational and authorized testing only.**
 
-This keylogger is designed **exclusively** for:
-- **Educational purposes** and cybersecurity training
-- **Authorized penetration testing** with explicit written permission
-- **Research** in controlled laboratory environments
-- **Personal testing** on your own devices only
-
-### Legal Warning
-- **Unauthorized deployment** of this tool is **illegal** in most jurisdictions
-- Using this software without explicit consent violates privacy laws and can result in severe legal consequences
-- The author(s) are **not responsible** for any misuse or illegal activities
-- **Always obtain written permission** before testing on systems you don't own
-- Ensure compliance with local, state, and federal laws
-
-### Ethical Guidelines
-- Only use on systems you own or have explicit authorization to test
-- Respect privacy and confidentiality
-- Follow responsible disclosure practices
-- Use knowledge gained for defensive and educational purposes
-
+This tool is designed for:
+- Educational purposes and cybersecurity training
+- Authorized penetration testing with permission
+- Research in controlled environments
+- Personal testing on your own devices
 ---
 
-##  Features
+## Features
 
-- **Cross-Platform Support**: Works seamlessly on Windows, Linux, and macOS
-- **⌨ Advanced Keylogging**: Captures keystrokes with intelligent filtering
-- ** Reverse Shell**: Full remote command execution capabilities
-- ** Screenshot Capture**: Take remote screenshots for visual monitoring
-- ** File Management**: Upload and download files bidirectionally
-- ** URL Downloads**: Direct file downloads from web URLs
-- ** Stealth Operation**: Minimal system footprint
-- ** Configurable**: Environment-based configuration system
-- ** Multi-threaded**: Non-blocking operation with threading support
-- ** Real-time Monitoring**: Live keystroke dumping and analysis
+- Cross-platform support (Windows, Linux, macOS)
+- Keystroke logging with intelligent filtering
+- Reverse shell capabilities
+- Stealth operation
+- Configurable settings
+- Multi-threaded operation
+- Real-time monitoring
 
----
 
 ##  Installation
 
@@ -99,7 +79,7 @@ pip3 install -r requirements.txt
 
 ---
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ### Basic Keylogger Operation
 
@@ -166,7 +146,7 @@ SCREENSHOT_PREFIX=screenshot # Screenshot filename prefix
 
 ---
 
-## 🎯 **Live Demonstration**
+## **Live Demonstration**
 
 Here's the KeyLogger in action, showing real captured data and successful server-client connections:
 
@@ -269,7 +249,7 @@ When reporting issues, please include:
 
 ---
 
-## 🛠️ Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -398,7 +378,7 @@ Cybersecurity enthusiast and developer focused on educational security tools and
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **pynput** developers for cross-platform input monitoring
 - **mss** team for efficient screenshot capabilities  
@@ -415,7 +395,7 @@ For those interested in learning more about cybersecurity:
 
 ---
 
-## 📞 Support
+##  Support
 
 If you find this project helpful for your cybersecurity education, please:
 -  **Star this repository**
@@ -423,7 +403,7 @@ If you find this project helpful for your cybersecurity education, please:
 -  **Share it** with fellow security enthusiasts
 -  **Contribute** improvements and features
 
-**Remember**: Knowledge is powerful. Use it responsibly. 🛡️
+**Remember**: Knowledge is powerful. Use it responsibly. 
 
 ---
 
