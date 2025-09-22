@@ -1,9 +1,9 @@
 # KeyLogger - Educational Penetration Testing Tool
 
+A cross-platform keylogger with reverse shell capabilities for cybersecurity education and authorized penetration testing. This tool demonstrates keystroke capture, remote command execution, and file management techniques used in ethical hacking scenarios. Built for students, researchers, and security professionals to learn defensive cybersecurity concepts.
+
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/anujbolewar/KeyLogger)
-
-A cross-platform educational keylogger with reverse shell capabilities, designed for penetration testing, cybersecurity research, and educational purposes. This tool demonstrates various techniques used in ethical hacking scenarios and provides hands-on learning opportunities for cybersecurity students and professionals.
 
 ---
 
@@ -285,8 +285,39 @@ pip install -r requirements.txt
 
 #### Windows
 - Requires administrative privileges for some features
-- Windows Defender may flag as potentially unwanted program
+- **Windows Defender will delete `reverse_shell.py`** upon cloning due to security detection
 - Grant accessibility permissions in Windows Security
+
+##### Windows Defender Solution
+Windows Defender automatically removes `reverse_shell.py` because it detects reverse shell patterns. Here are solutions:
+
+**Option 1: Disable Real-time Protection Temporarily**
+```bash
+# 1. Open Windows Security → Virus & threat protection
+# 2. Turn off "Real-time protection" temporarily
+# 3. Clone the repository
+# 4. Add the project folder to exclusions
+# 5. Re-enable real-time protection
+```
+
+**Option 2: Add Exclusion Before Cloning**
+```bash
+# 1. Open Windows Security → Virus & threat protection
+# 2. Go to "Manage settings" under Virus & threat protection settings
+# 3. Add an exclusion for your project directory
+# 4. Clone the repository to that directory
+```
+
+**Option 3: Use PowerShell/Terminal Method**
+```powershell
+# Add exclusion via PowerShell (run as Administrator)
+Add-MpPreference -ExclusionPath "C:\path\to\your\KeyLogger\folder"
+
+# Then clone the repository
+git clone https://github.com/anujbolewar/KeyLogger.git
+```
+
+> **Note**: Only disable security features in controlled environments for educational purposes. Always re-enable protection after testing.
 
 #### Linux
 - May require X11 forwarding for GUI features
@@ -297,56 +328,9 @@ pip install -r requirements.txt
 - May require disabling System Integrity Protection for advanced features
 
 ---
-
-##  Frequently Asked Questions
-
-**Q: Is this tool safe to use for learning?**  
-A: Yes, when used responsibly in controlled environments on systems you own or have explicit permission to test.
-
-**Q: Will antivirus software detect this?**  
-A: Possibly. Most security software flags keyloggers. This is expected behavior and confirms the tool's realistic simulation of malware techniques.
-
-**Q: Can I use this for bug bounty programs?**  
-A: Only if explicitly permitted by the program's scope and rules. Always review terms of engagement carefully.
-
-**Q: How do I ensure I'm using this ethically?**  
-A: Follow the principle of explicit consent, document your testing, and ensure all activities are within legal boundaries.
-
-**Q: What should I do if I find a security vulnerability?**  
-A: Report it responsibly through the GitHub Issues or contact the maintainer directly for sensitive issues.
-
----
-
-##  License & Legal
-
-### License
-
-**No formal license has been applied to this project yet.** The code is provided for educational purposes only. Please contact the author before using this code in any commercial or production environment.
-
-> **Note**: Consider adding a proper open source license (like MIT, GPL, or Apache 2.0) to clarify usage rights and responsibilities.
-
 ### Copyright
 
 Copyright © 2025 Anuj Bolewar. All rights reserved.
-
-### Terms of Use
-
-By using this software, you agree to:
-- Use it only for educational, research, or authorized testing purposes
-- Comply with all applicable laws and regulations
-- Respect privacy and confidentiality
-- Not use it for malicious, illegal, or unethical activities
-- Take full responsibility for your actions
-
-### Liability Disclaimer
-
-The authors and contributors:
-- Provide this software "as is" without warranty
-- Are not liable for any damages or legal issues arising from use
-- Do not endorse or encourage illegal activities
-- Recommend consulting legal counsel before use in professional environments
-
----
 
 ##  Author Information
 
@@ -357,26 +341,7 @@ The authors and contributors:
 ### Professional Background
 Cybersecurity enthusiast and developer focused on educational security tools and ethical hacking methodologies. Passionate about helping others learn cybersecurity through hands-on, practical examples.
 
----
 
-##  Changelog
-
-### Version 1.0.0 (Current)
-- ✅ Cross-platform keylogger implementation
-- ✅ Reverse shell functionality
-- ✅ Screenshot capabilities
-- ✅ File transfer features
-- ✅ Environment-based configuration
-- ✅ Comprehensive documentation
-
-### Planned Features
-- 🔮 Encrypted communication channels
-- 🔮 Advanced persistence mechanisms
-- 🔮 Network traffic analysis
-- 🔮 Mobile platform support
-- 🔮 Web-based management interface
-
----
 
 ## Acknowledgments
 
