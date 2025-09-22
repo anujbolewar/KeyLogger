@@ -1,1 +1,7 @@
 pynput
+mss
+requests
+python-dotenv
+
+
+
