@@ -151,11 +151,11 @@ SCREENSHOT_PREFIX=screenshot # Screenshot filename prefix
 Here's the KeyLogger in action, showing real captured data and successful server-client connections:
 
 ### Keystroke Capture Output
-![Keylogger Output](screnshot/1.png)
+![Keylogger Output](media/Screenshot%20from%202025-09-22%2022-44-19.png)
 *The keylogger successfully captures keystrokes including special keys like Ctrl, Alt, Backspace, and Enter. The output shows real-time logging with proper formatting.*
 
 ### Server-Client Connection
-![Server Connection](screnshot/2.png)
+![Server Connection](media/Screenshot%20from%202025-09-22%2022-44-36.png)
 *Demonstration of the reverse shell connection between server and client, showing successful connection establishment and command execution capabilities.*
 
 > **Note**: These screenshots demonstrate the tool working in a controlled testing environment for educational purposes only.
@@ -174,7 +174,10 @@ KeyLogger/
 ├── .env.example         # Configuration template
 ├── README.md            # Documentation
 ├── __pycache__/         # Python cache files
-└── screnshot/           # Screenshot storage
+├── media/               # Screenshots and documentation images
+│   ├── Screenshot from 2025-09-22 22-44-19.png
+│   └── Screenshot from 2025-09-22 22-44-36.png
+└── screnshot/           # Additional screenshot storage
     ├── 1.png
     └── 2.png
 ```
