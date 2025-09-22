@@ -33,6 +33,10 @@ MANIFEST
 *.manifest
 *.spec
 
+
+windows_setup_instructions.txt
+kali_setup_instructions.txt
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

