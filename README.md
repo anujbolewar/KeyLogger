@@ -1,10 +1,4 @@
-# KeyLogger - Educational Penetration Testing Tool
-
-A cross-platform keylogger with reverse shell capabilities for cybersecurity educati##  **Live Demonstration**
-
-Here's the KeyLogger in action, showing real captured data and successful server-client connections:
-
-### Keystroke Capture Outputd authorized penetration testing. This tool demonstrates keystroke capture, remote command execution, and file management techniques used in ethical hacking scenarios. Built for students, researchers, and security professionals to learn defensive cybersecurity concepts.
+A Python keylogger I built that also works as a reverse shell. Captures keystrokes, transfers files, and takes screenshots remotely. Works on Windows, Linux, and Mac. Made this for learning cybersecurity .
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/anujbolewar/KeyLogger)
