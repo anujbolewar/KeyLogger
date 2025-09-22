@@ -7,7 +7,7 @@ Here's the KeyLogger in action, showing real captured data and successful server
 ### 🎥 Video Demo
 **Watch the KeyLogger in action:**
 
-https://github.com/anujbolewar/KeyLogger/assets/media/KeyLogger.mp4
+https://github.com/anujbolewar/KeyLogger/raw/main/media/KeyLogger.mp4
 
 *This video demonstrates the complete workflow: server setup, client connection, keystroke capture, and command execution in a controlled testing environment.*
 
