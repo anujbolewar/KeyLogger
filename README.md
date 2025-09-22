@@ -1,23 +1,22 @@
 # KeyLogger - Educational Penetration Testing Tool
 
-A cross-platform keylogger with reverse shell capabilities for cybersecurity education and authorized penetration testing. This tool demonstrates keystroke capture, remote command execution, and file management techniques used in ethical hacking scenarios. Built for students, researchers, and security professionals to learn defensive cybersecurity concepts.
+A cross-platform keylogger with reverse shell capabilities for cybersecurity educati##  **Live Demonstration**
+
+Here's the KeyLogger in action, showing real captured data and successful server-client connections:
+
+### 🎥 Video Demo
+**Watch the KeyLogger in action:**
+
+https://github.com/anujbolewar/KeyLogger/assets/media/KeyLogger.mp4
+
+*This video demonstrates the complete workflow: server setup, client connection, keystroke capture, and command execution in a controlled testing environment.*
+
+### Keystroke Capture Outputd authorized penetration testing. This tool demonstrates keystroke capture, remote command execution, and file management techniques used in ethical hacking scenarios. Built for students, researchers, and security professionals to learn defensive cybersecurity concepts.
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)](https://github.com/anujbolewar/KeyLogger)
 
 ---
-
-## ⚠️ Important Disclaimer
-
-**For educational and authorized testing only.**
-
-This tool is designed for:
-- Educational purposes and cybersecurity training
-- Authorized penetration testing with permission
-- Research in controlled environments
-- Personal testing on your own devices
----
-
 ## Features
 
 - Cross-platform support (Windows, Linux, macOS)
@@ -175,6 +174,7 @@ KeyLogger/
 ├── README.md            # Documentation
 ├── __pycache__/         # Python cache files
 ├── media/               # Screenshots and documentation images
+│   ├── KeyLogger.mp4
 │   ├── Screenshot from 2025-09-22 22-44-19.png
 │   └── Screenshot from 2025-09-22 22-44-36.png
 └── screnshot/           # Additional screenshot storage
