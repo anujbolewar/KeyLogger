@@ -4,13 +4,6 @@ A cross-platform keylogger with reverse shell capabilities for cybersecurity edu
 
 Here's the KeyLogger in action, showing real captured data and successful server-client connections:
 
-### 🎥 Video Demo
-**Watch the KeyLogger in action:**
-
-https://github.com/anujbolewar/KeyLogger/raw/main/media/KeyLogger.mp4
-
-*This video demonstrates the complete workflow: server setup, client connection, keystroke capture, and command execution in a controlled testing environment.*
-
 ### Keystroke Capture Outputd authorized penetration testing. This tool demonstrates keystroke capture, remote command execution, and file management techniques used in ethical hacking scenarios. Built for students, researchers, and security professionals to learn defensive cybersecurity concepts.
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://python.org)
